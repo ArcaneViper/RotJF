@@ -1,0 +1,122 @@
+* {box-sizing: border-box}
+/*  -- Border Debugging Style --  */
+/*
+    *{
+    border: 2px black solid;
+    }
+*/
+body{
+    margin: 0;
+}
+html{
+    background-image: url(https://wallpapercave.com/wp/wp4503883.jpg), url(https://www.hakaimagazine.com/wp-content/uploads/header-vr-coral-beauty.jpg), url(https://previews.123rf.com/images/discovod/discovod1607/discovod160700186/61546442-tropical-fish-on-vibrant-coral-reef-underwater-scene.jpg); 
+}
+header > *{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+}
+header > h2{
+    text-align: center;
+    display: block;
+    width: 400px;
+    border-bottom: 1px black solid;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(66, 135, 245);
+    padding: 5px 0px 10px 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    background-color: blue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+.dropdown{
+    display: inline-block;
+    padding: 4px 10px;
+}
+.dropdownbutton{
+    display: block;
+    background-color: none;
+    color: white;
+    font-size: 20px;
+    line-height: 100%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    text-align: justify;
+    min-width: 100px;
+}
+.dropdown a{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 4px 0px;
+}
+.dropdown:hover .dropdowncontent, .dropdown:hover a{
+    display: block;
+}
+.dropdowncontent > a:hover, .dropdownbutton:hover{
+    color: black;
+    background-color: rgb(173, 216, 230, 0.5);
+}
+.loi1, .loi2{
+    font-weight: bold;
+}
+footer{
+    background-color: blue;
+    width: auto;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 6px 2px;
+}
+footer > div{
+    display: inline-block;
+    margin: 10px 20px 0px 20px;
+    padding: 0px;
+}
+footer a:hover{
+    background-color: lightblue;
+    color: black;
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+section{
+    text-align: center;
+    display: block;
+}
+section > div.bigman1{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%
+}
+div.bigman2{
+    margin: 300px 0;
+    display: inline-block;
+    width: 90%;
+    font-size: 20px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
