@@ -113,8 +113,8 @@ section > div.bigman1{
     width: 60%
 }
 div.bigman2{
-    margin-bottom: 300px;
-    display: block;
+    margin: 300px 0;
+    display: inline-block;
     width: 90%;
     font-size: 20px;
     background-color: white;
